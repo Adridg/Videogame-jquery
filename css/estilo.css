@@ -1,0 +1,253 @@
+ body{
+ 	background-image: url("../recursos/hierba.jpg");
+ 	overflow: hidden;
+ }
+ #capa{
+ 	width: 2%;
+ 	height: 7%;
+ 	position: absolute;
+
+ }
+
+ #capa img
+ {
+ 	margin-left: -36%;
+ 	margin-top: -25%;
+ }
+
+
+ #pared {
+ 	width: 2%;
+ 	height: 75%;
+ 	background-image: url("../recursos/muro2.png");
+ 	position:absolute;
+ 	left: 97.4%;
+ 	top:8%;
+ }
+
+ #pared2 {
+ 	width: 2%;
+ 	height: 75%;
+ 	background-image: url("../recursos/muro2.png");
+ 	position:absolute;
+ 	left: 1%;
+ 	top:8%;
+ }
+
+ #pared3 {
+ 	width: 98.5%;
+ 	height: 15%;
+ 	background-image: url("../recursos/muro.png");
+ 	position:absolute;
+ 	left: 1%;
+ 	top:2.5%;
+ }
+
+ #pared4 {
+ 	width: 98.5%;
+ 	height: 15%;
+ 	background-image: url("../recursos/muro.png");
+ 	position:absolute;
+ 	left: 1%;
+ 	top:82%;
+ }
+
+ #creadorAleatorio{
+ 	width: 70%;
+ 	height:75%;
+ 	margin-left: 8%;
+ 	margin-top: 6%;
+ }
+
+ .obstaculo1
+ {
+ 	width: 2%;
+ 	height: 10.5%;
+ 	background-image: url("../recursos/Column.png");
+ 	background-size: 100%;
+ 	position:absolute;
+ 	left: 20%;
+ 	top:40%;
+ }
+
+ .obstaculo2
+ {
+ 	width: 2%;
+ 	height: 10.5%;
+ 	background-image: url("../recursos/Column.png");
+ 	background-size: 100%;
+ 	position:absolute;
+ 	left: 40%;
+ 	top:40%;
+ }
+
+ .obstaculo3
+ {
+ 	width: 2%;
+ 	height: 10.5%;
+ 	background-image: url("../recursos/Column.png");
+ 	background-size: 100%;
+ 	position:absolute;
+ 	left: 60%;
+ 	top:40%;
+ }
+
+
+ .flecha
+ {
+ 	width: 100%;
+ 	height: 8px;
+ 	background-size: 90%;
+ 	position:absolute;
+ }
+
+ .espada
+ {
+ 	width: 100%;
+ 	height: 30px;
+ 	position:absolute;
+ }
+
+ #mapa
+ {
+ 	width: 2%;
+ 	height: 7%;
+ 	position: absolute;
+ }
+
+ .enemigo
+ {
+ 	width: 3%;
+ 	height: 10%;
+ 	position: absolute;
+
+ }
+
+ #vida, #puntuacion, #powerUp, #tiempo, #nivel
+ {
+ 	width: 200px;
+ 	height: 90px;
+ 	overflow:auto; 
+ 	position: absolute;
+ 	z-index: 1;
+ }
+
+ #vida
+ {
+ 	top:-70px;
+ 	left:0px;
+ }
+
+ #powerUp
+ {
+ 	top:-70px;
+ 	left:12em;
+ 	height: 120px;
+ }
+ #tiempo
+ {
+ 	top:-70px;
+ 	left:28em;
+ }
+ #puntuacion
+ {
+ 	top:-70px;
+ 	left:40em;
+ }
+ #nivel
+ {
+ 	top:-70px;
+ 	left:60em;
+ }
+
+
+
+ .iconoVida, .iconoVidaVacio
+ {
+ 	width: 20%;
+ 	height:30px;
+ 	position: relative;
+ 	z-index: 2;
+ 	top: -40px;
+ 	left: 20px;
+ }
+
+ .marco
+ {
+ 	width: 100%;
+ 	height:50px;
+ 	background-color: black;
+ }
+
+ .disparoEnemigo
+ {
+ 	background-image: url("../recursos/disparoEnemigo.png");
+ 	width: 60%;
+ 	height: 17px;
+ 	background-size: 100%;
+ 	position:relative;
+ }
+
+
+ .pocion, .llave, .powerArco, .powerEspada 
+ {
+ 	position: absolute;
+ }
+
+ .pocion img, .llave img, .powerArco img, .powerEspada img
+ {
+ 	width: 40px;
+ 	height: 40px;
+ }
+
+ .simboloEspada, .simboloArco
+ {
+ 	width: 8%;
+ 	height: 16px;
+ 	position:absolute;
+ }
+ .simboloEspada
+ {
+ 	top: 10px;
+ 	left: 14px;
+ }
+ .simboloArco
+ {
+ 	top: 30px;
+ 	left: 14px;
+ }
+
+ #puertaSalida
+ {
+ 	left:-8px;
+ 	top:-12px;
+ 	position: relative;
+ 	z-index: 2
+
+ }
+
+ #draggable
+ {
+ 	width: 2%;
+ 	height: 30px;
+ 	position: relative;
+ 	top: 50px;
+ 	z-index: 3;
+ 	display: none;
+
+ }
+ .llave
+ {
+ 	width: 100%;
+ 	height: 40px;
+ }
+
+ #droppable
+ {
+ 	position: absolute;
+ 	width: 3%;
+ 	height: 50px;
+ 	top: 90px;
+ 	left:100px;
+ }
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head><title> Videojuego</title>     
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+</head>
+<body>
+
+<div id= 'draggable' class='ui-widget-content'>
+   <img class='llave' src='recursos/llave.png'/>
+ </div>
+
+<div id="droppable" class="ui-widget-header puerta">
+	<img id="puertaSalida" src="recursos/puertaAbierta.png" alt="puertaSalida"/>
+</div>
+
+<div id="capa" class="jugador" data-vida="4"> <img class="heroe" src="Heroe/quietoAbajo.png" alt="me"></div>
+	
+	<div id="mapa">
+		<div id=interfaz>
+			<div id="vida"><img class="marco" src="recursos/marco.png" alt="marco"></div>
+			<div id="puntuacion"><img class="marco" src="recursos/marco.png" alt="marco"></div>
+			<div id="nivel"><img class="marco" src="recursos/marco.png" alt="marco"></div>
+			<div id="powerUp">
+				<img class="simboloEspada" src="recursos/iconoEspada.png" alt="marco">
+				<img class="simboloArco" src="recursos/iconoArco.png" alt="marco">
+				<div id="barraArco"></div>
+				<div id="barraEspada"></div>
+				<img class="marco" src="recursos/marco.png" alt="marco">
+			</div>
+			<div id="tiempo"><img class="marco" src="recursos/marco.png" alt="marco"></div>
+		</div>
+	</div>
+
+	<div id="pared3" class="fisicaObj "></div>
+	<div id="pared4" class="fisicaObj "></div>
+	<div id="pared"  class="fisicaObj "></div>
+	<div id="pared2" class="fisicaObj "></div>
+	
+	
+	<div id="creadorAleatorio">
+		 <div class= "obstaculo1 obstaculo "></div>
+		 <div class= "obstaculo2 obstaculo "></div>
+		 <div class= "obstaculo3 obstaculo "></div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/codigo.js"></script>
+	
+
+</body>
+</html>
